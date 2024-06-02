@@ -5,23 +5,10 @@
   import Sidebar from "../components/Sidebar.svelte";
 </script>
 
-<style>
-  .container {
-    display: flex;
-    position: relative;
-    width: 100%;
-    min-height: 100vh;
-  }
 
-  .content {
-    flex: 1;
-    padding: 10px;
-  }
-</style>
-
-<div class="container">
+<div class="flex relative min-h-screen">
   <Sidebar />
-  <div class="content">
+  <div class="flex-1 p-2 ">
     <Header/>
     <Hero /> 
   </div>
