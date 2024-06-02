@@ -1,12 +1,11 @@
 <script>
-    import { onMount } from "svelte";
 </script>
 
 <div class="sidebar w-79">
     <div class="header mb-4">
-        <h1 class="text-2xl font-bold">CloudChat AI</h1>
+        <h1 class="text-2xl font-bold">CLOUDCHAT AI</h1>
     </div>
-    <hr class="border-gray-200 mb-4 " />
+    <hr class="border-gray-200 mb-4" />
     <div class="menu-item mb-4">
         <h2 class="flex items-center text-xl font-semibold">
             <svg
@@ -55,27 +54,27 @@
             </li>
         </ul>
     </nav>
-    <div class="flex items-center mt-4">
+    <div class="flex items-center p-2 mt-4 shadow-md rounded-2xl">
         <img
             src="https://via.placeholder.com/40"
             alt="User Picture"
             class="rounded-full"
         />
-        <div class="ml-2">
-            <p class="text-sm font-semibold">Name Surname</p>
-            <button class="bg-red-500 text-white rounded-full p-2 mr-2"
-                >Logout</button
-            >
+        <div class="flex-1 flex justify-center items-center">
+            <h3 class="text-md font-semibold">Name Surname</h3>
         </div>
+        <button class="rounded-full w-10 h-10 flex items-center justify-center border-solid border-gray border-2 ml-2">
+            <i class="fa-solid fa-arrow-right-from-bracket" style="color: #161c27;"></i>
+        </button>
     </div>
+    
+    
 </div>
 
 <style>
     .sidebar {
-        /* min-width: 310px; */
         display: flex;
         flex-direction: column;
-        /* height: calc(100vh - 40px); */
         background-color: #fff;
         padding: 20px;
         box-shadow:
