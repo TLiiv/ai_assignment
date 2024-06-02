@@ -1,13 +1,14 @@
 <script>
+   
 </script>
 
 <div class="sidebar w-79">
     <div class="header mb-4">
-        <h1 class="text-2xl font-bold">CLOUDCHAT AI</h1>
+        <h1 class="text-2xl text-center"><b>CLOUDCHAT</b> AI</h1>
     </div>
-    <hr class="border-gray-200 mb-4" />
+    <hr class="border-gray-200 mb-4 w-full" />
     <div class="menu-item mb-4">
-        <h2 class="flex items-center text-xl font-semibold">
+        <h2 class="flex items-center justify-center text-xl font-semibold ">
             <svg
                 xmlns="http://www.w3.org/2000/svg"
                 fill="none"
@@ -26,31 +27,33 @@
         </h2>
     </div>
     <nav class="flex-1">
-        <ul>
+        <ul class="space-y-2">
             <li>
-                <a href="#" class="menu-item block">Other Pages</a>
+                <a href="#" class="menu-item block text-center">Other Pages</a>
             </li>
             <li>
-                <a href="#" class="menu-item block">Prompt Page</a>
-            </li>
-            <a href="#" class="menu-item block">Register</a>
-            <li>
-                <a href="#" class="menu-item block">Sign in</a>
+                <a href="#" class="menu-item block text-center">Prompt Page</a>
             </li>
             <li>
-                <a href="#" class="menu-item block locked">Admin Pages</a>
+                <a href="#" class="menu-item block text-center">Register</a>
             </li>
             <li>
-                <a href="#" class="menu-item block locked">All Templates</a>
+                <a href="#" class="menu-item block text-center">Sign in</a>
             </li>
             <li>
-                <a href="#" class="menu-item block locked">New Template</a>
+                <a href="#" class="menu-item block text-center locked">Admin Pages</a>
             </li>
             <li>
-                <a href="#" class="menu-item block locked">Edit Template</a>
+                <a href="#" class="menu-item block text-center locked">All Templates</a>
             </li>
             <li>
-                <a href="#" class="menu-item block locked">Users Overview</a>
+                <a href="#" class="menu-item block text-center locked">New Template</a>
+            </li>
+            <li>
+                <a href="#" class="menu-item block text-center locked">Edit Template</a>
+            </li>
+            <li>
+                <a href="#" class="menu-item block text-center locked">Users Overview</a>
             </li>
         </ul>
     </nav>
@@ -67,8 +70,6 @@
             <i class="fa-solid fa-arrow-right-from-bracket" style="color: #161c27;"></i>
         </button>
     </div>
-    
-    
 </div>
 
 <style>
@@ -88,6 +89,7 @@
     .menu-item {
         padding: 10px 0;
         color: #333;
+        text-align: center; 
     }
     .locked {
         color: #aaa;
